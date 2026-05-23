@@ -1,0 +1,100 @@
+# =========================================================
+# 🐍 GITIGNORE - Security & Privacy Configuration
+# =========================================================
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables (SECURITY - Never commit these!)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+*.logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Detection & Output Files
+detections/
+*.jpg
+*.png
+*.mp4
+*.avi
+
+# Model Files (Large)
+models/
+*.pt
+*.pth
+*.weights
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# IDE Specific
+.vscode/settings.json
+.vscode/extensions.json
+.vscode/launch.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
