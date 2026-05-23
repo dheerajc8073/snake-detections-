@@ -1,0 +1,44 @@
+# =========================================================
+# 🐍 AI SNAKE DETECTION SYSTEM - DEPENDENCIES
+# =========================================================
+# This file contains all required packages for the snake
+# detection system using YOLOv8 for real-time detection
+# =========================================================
+
+# Computer Vision & ML Libraries
+opencv-python==4.8.1.78
+ultralytics==8.0.207
+numpy==1.24.3
+torch==2.0.1
+torchvision==0.15.2
+Pillow==10.0.0
+
+# Web Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# External Notifications
+requests==2.31.0
+python-telegram-bot==20.3
+
+# Text-to-Speech
+pyttsx3==2.90
+
+# Data Processing
+pandas==2.1.1
+scipy==1.11.3
+
+# Utilities
+python-dotenv==1.0.0
+Werkzeug==3.0.1
+
+# Development & Testing
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+pylint==3.0.2
+
+# Logging & Monitoring
+loguru==0.7.2
