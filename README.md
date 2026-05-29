@@ -1,8 +1,15 @@
 # 🐍 AI-Powered Snake Detection System
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-002F6C?style=flat-square&logo=ultralytics&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+
 > **Real-time Snake Detection & Safety Monitoring**
 
 An intelligent, production-ready snake detection system powered by **YOLOv8** for accurate real-time identification through images, videos, and live webcam streams. Built for wildlife safety monitoring and conservation efforts.
+
+
 
 ---
 
